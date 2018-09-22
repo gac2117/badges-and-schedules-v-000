@@ -8,5 +8,5 @@ def batch_badge_creator(attendees)
   attendees.each do |speaker|
     badges << badge_maker(speaker)
   end
-  return badges.inspect
+  return badges
 end

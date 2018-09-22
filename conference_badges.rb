@@ -18,5 +18,5 @@ def assign_rooms(attendees)
     room_assignments << "Hello, #{speaker}! You'll be assigned to room #{room}!"
     room += 1
   end
-  puts room_assignments
+  return room_assignments
 end
